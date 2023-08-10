@@ -1,0 +1,63 @@
+.lema {
+  margin: 4rem 6rem;
+}
+
+.lema-text {
+  font-size: 1.1rem;
+}
+
+.lema-text h2 {
+  padding-bottom: 1rem;
+  color: #f9943b;
+}
+
+.contador {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 20px;
+}
+
+.number {
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.category {
+  font-size: 1.1rem;
+}
+
+.btnClass {
+  text-decoration: none;
+  background-color: #222;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .lema {
+    margin: 4rem 2rem;
+  }
+
+  .lema-text {
+    font-size: 1rem;
+  }
+
+  .lema-text p {
+    text-align: justify;
+  }
+
+  .contador {
+    text-align: center;
+    display: block;
+  }
+
+  .btnClass {
+    font-size: 0.8rem;
+  }
+}
